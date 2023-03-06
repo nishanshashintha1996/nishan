@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nishan/static/css/main.85b29a0b.css",
+    "main.js": "/nishan/static/js/main.2f1f608b.js",
+    "static/js/787.2d6dc8a7.chunk.js": "/nishan/static/js/787.2d6dc8a7.chunk.js",
+    "static/media/profile.png": "/nishan/static/media/profile.fb0abc1b6fd728a74b74.png",
+    "index.html": "/nishan/index.html",
+    "main.85b29a0b.css.map": "/nishan/static/css/main.85b29a0b.css.map",
+    "main.2f1f608b.js.map": "/nishan/static/js/main.2f1f608b.js.map",
+    "787.2d6dc8a7.chunk.js.map": "/nishan/static/js/787.2d6dc8a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85b29a0b.css",
+    "static/js/main.2f1f608b.js"
+  ]
+}

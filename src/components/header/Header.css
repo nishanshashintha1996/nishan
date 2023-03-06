@@ -1,0 +1,48 @@
+.call-to-action{
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 20px 20px 0px;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.call-to-action:hover{
+    background-color: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 20px 20px 0px;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.header-bg-modify{
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 0px 3px 0px;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.nav-bg-modify{
+    padding: 10px;
+}
+
+.logo-bg-modify{
+    height: 80px;
+}
+
+.nav-a{
+    color: white;
+}
+
+.call-to-action-m{
+    background-color: black;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 20px 20px 0px;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}

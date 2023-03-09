@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/nishan/static/css/main.2e291a0b.css",
-    "main.js": "/nishan/static/js/main.074acbbb.js",
+    "main.css": "/nishan/static/css/main.fac7b294.css",
+    "main.js": "/nishan/static/js/main.cfc1a874.js",
     "static/js/787.2d6dc8a7.chunk.js": "/nishan/static/js/787.2d6dc8a7.chunk.js",
-    "static/media/profile.png": "/nishan/static/media/profile.fb0abc1b6fd728a74b74.png",
+    "static/media/laravel.png": "/nishan/static/media/laravel.c6d2bf8145486f3a6ba7.png",
+    "static/media/logo.png": "/nishan/static/media/logo.e888ab99d574bc9cc205.png",
+    "static/media/spring.png": "/nishan/static/media/spring.ab51932837f306df784b.png",
+    "static/media/bubble.png": "/nishan/static/media/bubble.a366d65ee4d52ef2815f.png",
     "index.html": "/nishan/index.html",
-    "main.2e291a0b.css.map": "/nishan/static/css/main.2e291a0b.css.map",
-    "main.074acbbb.js.map": "/nishan/static/js/main.074acbbb.js.map",
+    "main.fac7b294.css.map": "/nishan/static/css/main.fac7b294.css.map",
+    "main.cfc1a874.js.map": "/nishan/static/js/main.cfc1a874.js.map",
     "787.2d6dc8a7.chunk.js.map": "/nishan/static/js/787.2d6dc8a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e291a0b.css",
-    "static/js/main.074acbbb.js"
+    "static/css/main.fac7b294.css",
+    "static/js/main.cfc1a874.js"
   ]
 }

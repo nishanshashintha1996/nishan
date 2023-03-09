@@ -11,7 +11,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import profile from './../../profile.png';
+import profile from './../../logo.png';
 const products = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
   { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
@@ -36,7 +36,7 @@ export default function Header() {
       <nav className="mx-auto nav-bg-modify flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Nishan Shashintha</span>
             <img className="h-8 w-auto logo-bg-modify" src={profile} alt="" />
           </a>
         </div>
@@ -113,7 +113,7 @@ export default function Header() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm call-to-action font-semibold leading-6 text-gray-900">
+          <a target="_blank" href="https://wa.link/xry6ey" className="text-sm call-to-action font-semibold leading-6 text-gray-900">
             Contact Me <span aria-hidden="true">&rarr;</span>
           </a>
           <span class="relative flex h-3 w-3">

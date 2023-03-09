@@ -1,4 +1,8 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { ArrowRightIcon } from '@heroicons/react/20/solid'
+import { motion } from "framer-motion"
+import brand1 from './../../../brands/bubble.png'
+import brand2 from './../../../brands/spring.png'
+import brand3 from './../../../brands/laravel.png'
 
 export default function AboutMe() {
   return (
@@ -33,11 +37,10 @@ export default function AboutMe() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
+              <p className="text-base font-semibold leading-7 text-indigo-600 uppercase">Discover Our Technologies and Services</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Revolutionizing Modern Web Development: Innovative Solutions for Your Business Needs</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                eget aliquam. Quisque id at vitae feugiat egestas.
+                As the world becomes more connected than ever before, businesses need to stay ahead of the curve and adapt to the rapidly changing digital landscape. Specialized in cutting-edge technologies such as Web3, React, Bubble.io, Laravel, and Spring to help businesses succeed in this dynamic environment.
               </p>
             </div>
           </div>
@@ -53,46 +56,43 @@ export default function AboutMe() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                semper sed amet vitae sed turpis id.
+                  Having the skills and knowledge to create robust and scalable web applications that meet the unique needs. From front-end React development to back-end Laravel and Spring, and even the no-code platform Bubble.io, have the technical expertise to deliver high-quality solutions. Understanding that the web development industry is constantly evolving, which is why stay up-to-date with the latest trends and technologies.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <ArrowRightIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-gray-900">Web 3.0</strong> | A term used to describe the next generation of the internet, also known as the decentralized web. Web 3.0 technologies are designed to enable greater user control and privacy by utilizing decentralized systems and blockchain technology.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <ArrowRightIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">React Js</strong> | A popular JavaScript library for building user interfaces. React is known for its high performance and flexibility, and is widely used in web development.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <ArrowRightIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-gray-900">Bubble.io</strong> | A no-code platform that allows users to build web applications without writing code. Bubble.io provides a visual interface for creating and managing web pages, workflows, and data structures.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <ArrowRightIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Laravel</strong> | A PHP framework for building web applications. Laravel provides a powerful set of tools and features for developers, including database management, routing, and authentication.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <ArrowRightIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Spring</strong> | A popular Java framework for building web applications. Spring provides a comprehensive set of tools and features for developers, including data management, security, and web services.
                   </span>
                 </li>
               </ul>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">To Be A Partner for Exceptional Web Development Solutions.</h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+                We strive to be more than just a service provider, but a true partner in helping businesses achieve their web development goals. With our expertise in cutting-edge technologies such as Web3, React, Bubble.io, Laravel, and Spring, we deliver exceptional solutions tailored to meet the unique needs of each business. Whether it's front-end React development, back-end Laravel and Spring, or even the no-code platform Bubble.io, we have the technical expertise and industry knowledge to help businesses stay ahead in the rapidly changing digital landscape. Partner with us today to take your business to the next level.
               </p>
             </div>
           </div>
